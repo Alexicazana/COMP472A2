@@ -62,7 +62,7 @@ synonym_data[['question-word', 'answer-word', 'guess-word', 'label']] = pd.DataF
 synonym_data.drop(columns=['question', 'answer', '0', '1', '2', '3', 'results'], inplace=True)
 
 # Save to CSV
-details_file_path = 'word2vec-google-news-300-details2.csv'
+details_file_path = 'word2vec-google-news-300-details.csv'
 synonym_data.to_csv(details_file_path, index=False)
 
 # Prepare analysis data
@@ -83,7 +83,7 @@ analysis_data = pd.DataFrame({
 })
 
 # Save analysis data to CSV
-analysis_file_path = 'analysis2.csv'
+analysis_file_path = 'analysis.csv'
 analysis_data.to_csv(analysis_file_path, index=False)
 
 details_file_path, analysis_file_path
