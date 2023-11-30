@@ -26,7 +26,7 @@ https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?resourcekey=0-
 ## Task 1
 - Initial model: Google News Word2Vec model
 - Analysis in the analysis.csv file:
-![Analysis](task1_analysis_output.png)
+![Analysis](Task1/task1_analysis_output.png)
 
 
 

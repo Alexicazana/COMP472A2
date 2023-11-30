@@ -1,0 +1,5 @@
+model_name,vocab_size,correct_count,non_guess_questions,accuracy
+glove-wiki-gigaword-300,400000,71,80,0.8875
+fasttext-wiki-news-subwords-300,999999,74,80,0.925
+glove-twitter-50,1193514,36,78,0.46153846153846156
+glove-twitter-25,1193514,36,78,0.46153846153846156
