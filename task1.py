@@ -1,9 +1,16 @@
+import os
+os.environ['GENSIM_DATA_DIR'] = '/Users/alexandrazana/gensim-data'
+import gensim
 import gensim.downloader as api
 import pandas as pd
 from gensim import models
 from gensim.models import KeyedVectors
 from gensim.models.word2vec import Word2Vec
 import numpy as np
+
+
+# model = gensim.models.Word2Vec.load("word2vec-google-news-300")
+
 
 
 #NOTE: We use KeyedVectors instead of loading the model directly, because there's an error when trying to do that; this is a workaround, and is acceptable
@@ -18,6 +25,11 @@ model = KeyedVectors.load_word2vec_format(model_path, binary=True)
 # Loading word2vec-google-news-300 model
 # dataset = api.load("word2vec-google-news-300")
 # model = Word2Vec(dataset)
+
+# models = {
+#     "word2vec-google-news-300": None,
+# }
+
 
 # Loading dataset
 synonym_data = pd.read_csv('synonym.csv', dtype=str)
