@@ -43,7 +43,7 @@ output_dir = '../task2'
 os.makedirs(output_dir, exist_ok=True)
 
 # set analysis.csv output path
-analysis_file_path = os.path.join(output_dir, 'analysis.csv')
+analysis_file_path = '../analysis.csv'
 
 # Same as task1 but we have multiple models now so lets iterate over the models
 for m in model_list:
