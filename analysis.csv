@@ -1,2 +1,7 @@
 model_name,vocab_size,correct_count,non_guess_questions,accuracy
 word2vec-google-news-300,3000000,70,79,0.8860759493670886
+glove-wiki-gigaword-300,400000,71,80,0.8875
+word2vec_size100_window5,14316,14,41,0.34146341463414637
+word2vec_size100_window10,14316,15,41,0.36585365853658536
+word2vec_size300_window5,14316,14,41,0.34146341463414637
+word2vec_size300_window10,14316,15,41,0.36585365853658536
